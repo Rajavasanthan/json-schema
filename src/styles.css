@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+@import '~jsoneditor/dist/jsoneditor.min.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+/* You can't upload images to stackblitz*/
+div.jsoneditor-menu > button {
+  background-image: url('https://jsoneditoronline.org/img/jsoneditor-icons.svg');
+}
+div.jsoneditor-mode-code{
+  height:600px; 
+  }
+div.jsoneditor-menu{
+  background-color:rgb(55,71,79);;
+  height:12%
+}
+div.jsoneditor{
+  border: 1px solid rgb(55,71,79)
+}

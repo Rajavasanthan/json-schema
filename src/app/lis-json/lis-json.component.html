@@ -1,0 +1,38 @@
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header" style="background-color:rgb(55,71,79);;">
+          <h4 style="color:white">List Items </h4>
+        </div>
+        <div class="card-body">
+          <mat-list>
+            <mat-list-item (click)="sendData(data1)" style="cursor:pointer">Item 1</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item (click)="sendData(data2)" style="cursor:pointer">Item 2</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item (click)="sendData(data3)" style="cursor:pointer">Item 3</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item (click)="sendData(data4)" style="cursor:pointer">Item 4</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item (click)="sendData(data2)" style="cursor:pointer">Item 2</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item (click)="sendData(data3)" style="cursor:pointer">Item 3</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item (click)="sendData(data4)" style="cursor:pointer">Item 4</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item (click)="sendData(data2)" style="cursor:pointer">Item 2</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item (click)="sendData(data3)" style="cursor:pointer">Item 3</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item (click)="sendData(data4)" style="cursor:pointer">Item 4</mat-list-item>
+          </mat-list>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <app-viewjson [data]="data"> </app-viewjson>
+    </div>
+  </div>
+</div>
